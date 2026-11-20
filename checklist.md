@@ -37,3 +37,33 @@ The style.css file contains:
 - [x] Add a border to the two sections
 - [x] Create a header that places an image behind the headline
 - [x] Use a grid layout for the burger selection section
+
+
+## 04 JavaScript and Vue
+
+- [x] You have a menu.json file which contains at least three different burgers with their respective attributes.
+
+Your HomeView.vue file:
+- [x] ... contains a MenuItem constructor (that is not used)
+- [x] ... loads the information from menu.json and displays it in the burger selection section
+- [x] ... allows the customer to click on the interactive map to select a delivery location
+- [x] ... has an order button that sends the customer information, selected burgers and quantities, and delivery location to the server and dispatcher
+
+Your OneBurger.vue component:
+- [x] ... allows adding and removing burgers from the order
+- [x] ... only displays allergy information if relevant, based on gluten and lactose attributes
+
+Your Dispatcher.vue file:
+- [x] ... shows for every order:
+  - [x] a location on the map
+  - [x] the order information
+  - [x] the customer information
+
+## Optional
+
+- [x] Only allow the order to be sent if all necessary information are provided
+- [x] Display receipt on the customer page as well
+- [ ] Allow the dispatcher to handle individual orders using buttons to change their status to "in preparation" or "done"
+- [ ] Display the order status to the customer and update it when changed by the dispatcher
+- [ ] Show the order status for the customer as well
+- [ ] Find a better visualization for what orders belong to which location on the map
