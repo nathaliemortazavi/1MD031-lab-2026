@@ -222,19 +222,23 @@ export default {
 <style>
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap');
 
+
 body {
     font-family: 'EB Garamond', Georgia, serif;
     font-size: 18px;
+    background-color: #FFF4C2;
 }
 
 .allergen {
     font-weight: bold;
 }
 
+
 #burgers {
-    background-color: black;
-    color: white;
+    background-color: #C99A32;
+    color: black;
 }
+
 
 main section {
     margin: 20px 0;

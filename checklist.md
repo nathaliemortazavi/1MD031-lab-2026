@@ -63,7 +63,7 @@ Your Dispatcher.vue file:
 
 - [x] Only allow the order to be sent if all necessary information are provided
 - [x] Display receipt on the customer page as well
-- [ ] Allow the dispatcher to handle individual orders using buttons to change their status to "in preparation" or "done"
+- [x] Allow the dispatcher to handle individual orders using buttons to change their status to "in preparation" or "done"
 - [ ] Display the order status to the customer and update it when changed by the dispatcher
 - [ ] Show the order status for the customer as well
 - [ ] Find a better visualization for what orders belong to which location on the map

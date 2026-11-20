@@ -18,6 +18,22 @@
           Gender: {{ order.customer.gender }}
         </div>
 
+        <p>Status: {{ order.status || 'New' }}</p>
+
+        <button
+          type="button"
+          v-on:click="changeStatus(key, 'in preparation')"
+        >
+          In preparation
+        </button>
+
+        <button
+          type="button"
+          v-on:click="changeStatus(key, 'done')"
+        >
+          Done
+        </button>
+
         <hr>
       </div>
 
@@ -62,10 +78,10 @@ export default {
       socket.emit('clearQueue');
     },
 
-    changeStatus: function (orderId) {
+    changeStatus: function (orderId, status) {
       socket.emit('changeStatus', {
         orderId: orderId,
-        status: "Annan status"
+        status: status
       });
     }
   }
