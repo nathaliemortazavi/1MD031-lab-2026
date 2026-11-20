@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap');
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'EB Garamond', Georgia, serif;
     font-size: 18px;
 }
 
@@ -19,7 +20,6 @@ main section {
     border: 2px dashed gray;
 }
 
-/* Burger grid */
 .burger-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -62,4 +62,11 @@ button:hover {
     width: 90%;
     text-align: center;
     margin: 0;
+}
+
+
+.burger-grid img {
+    width: 150px;
+    height: 220px;
+    object-fit: cover;
 }
